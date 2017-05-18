@@ -37,26 +37,6 @@ event.preventDefault();
 });
 
 
- $("#actualizar").submit(function(e){
-    e.preventDefault();
-    var parametros = $(this).serialize();
-     $.ajax({
-          type: "POST",
-          url: "procesos/actualizar.php",
-          data: parametros,
-           beforeSend: function(objeto){
-            $("#mensaje").html("Mensaje: Cargando...");
-            },
-          success: function(datos){
-          $("#mensaje").html(datos);
-         //$("#actualizar")[0].reset();  //resetear inputs
-          $('#editModal').modal('hide'); //ocultar modal
-          $('body').removeClass('modal-open');
-          $('.modal-backdrop').remove();
-          loadTabla(1);
-          }
-      });
-  });
 
 
 $('#dataDelete').on('show.bs.modal', function (event) {
