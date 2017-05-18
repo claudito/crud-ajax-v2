@@ -75,6 +75,7 @@ $dato   = mysqli_fetch_array($result);
          //$("#actualizar")[0].reset();  //resetear inputs
           $('#editModal').modal('hide'); //ocultar modal
           $('body').removeClass('modal-open');
+          $("body").removeAttr("style");
           $('.modal-backdrop').remove();
           loadTabla(1);
           }
