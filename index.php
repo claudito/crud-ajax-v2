@@ -12,8 +12,8 @@
 
 <script type="text/javascript" src="http://cdn.datatables.net/1.10.12/js/dataTables.bootstrap.min.js"></script>  
 
-<script src="http://t4t5.github.io/sweetalert/dist/sweetalert-dev.js"></script>
-<link rel="stylesheet" href="http://t4t5.github.io/sweetalert/dist/sweetalert.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">
 
 	</head>
 	<body>
